@@ -26,7 +26,7 @@ tr:nth-child(even) {background-color: #f2f2f2}
 <th>Country_ID</th>
 </tr>
 <?php
-$conn = mysqli_connect("localhost", "root", "password", "sakila");
+$conn = mysqli_connect("localhost", "root", "", "sakila");
 // Check connection
 if ($conn->connect_error) {
 die("Connection failed: " . $conn->connect_error);
